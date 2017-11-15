@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Anna Schetnikova"
+  },
+  "text": {
+    "more": "Раскраска по модулярности позволяет выделить несколько сообществ:\n1) Фиолетовый - мои друзья, знакомые и учителя из моей первой школы (1-9 класс)\n2) Голубой - друзья, знакомые, одноклассники и учителя из старшей школы (10-11 класс)\n3) Красный - университетские знакомые (в основном однокурсники)\n4-5) Зелёный и жёлтый - сообщества, связанные с летними школами, куда я езжу с 1 класса. Зелёный - более старшее поколение, те, кто ездили туда раньше.\nЖёлтый - более молодое поколение, те, кто сейчас в 9-11 классе и на первом курсе.\n6) Несколько людей, не имеющих связи ни с кем на графе - случайные знакомые, знакомые по переписке и т.д.",
+    "intro": "Схема взаимоотношений между собой всех друзей одного человека (на графе не показан) \"ВКонтакте\".\n",
+    "title": "Друзья \"ВКонтакте\""
+  },
+  "legend": {
+    "edgeLabel": "Связь вида \"Друзья ВК\"",
+    "colorLabel": "Раскраска по модулярности (см. описание)",
+    "nodeLabel": "Человек"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
